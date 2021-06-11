@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 500px;
+    margin: 10% auto 0;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+}
+
+.calculator{
+    padding: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+
+.input:hover{
+    border: 1px solid #bbb;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+    position: relative;
+}
+
+.operators{
+    display: flex;
+    justify-content: space-between;
+}
+
+.operators div{
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    width: 98px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px 10px;
+    background: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators div:hover{
+    cursor: pointer;
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+}
+
+.operators div:active {
+    font-weight: bold;
+}
+  
+.leftPanel {
+    display: inline-block;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 339.3px;    
+}
+
+.numbers div{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 98px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover{
+    cursor: pointer;
+    background-color: #f1f1f1;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+}
+
+.numbers div:active {
+    font-weight: bold;
+}
+
+.equal{
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    width: 98px;
+    height: 284px;
+    right: 0;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 0;
+    vertical-align: top;
+    color: #fff;
+    background-color: #4d90fe;
+    transition: all .2s ease-in-out;
+}
+
+.equal:hover{
+    cursor: pointer;
+    background-color: #307cf9;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #1857bb;
+}
+
+.equal:active {
+    font-weight: bold;
+}
