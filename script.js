@@ -21,5 +21,8 @@ function calcular(){
     }
 }
 
-/* use apenas o eval() em funções internas do codigo,
-Jamais use o eval() quando precisar de inputs do servidor*/
+/* 
+CUIDADO:
+use o eval() APENAS em funções internas do codigo,
+Jamais use o eval() quando precisar de inputs do servidor
+*/
