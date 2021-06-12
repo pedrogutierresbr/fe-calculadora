@@ -46,5 +46,6 @@
     margin: 6px auto;
     color: black;
     text-align: right;
-    padding: 5px;
+    padding: 5px 15px;
+    font-size: 25px;
 }
