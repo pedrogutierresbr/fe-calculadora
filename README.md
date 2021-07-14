@@ -24,7 +24,7 @@ To see the **web version**, click here: [https://simplescalculadora.netlify.app/
 
 # clone the repository
 
-https://github.com/pedrogutierresbr/calculadora.git
+git clone https://github.com/pedrogutierresbr/calculadora.git
 
 ```
 
